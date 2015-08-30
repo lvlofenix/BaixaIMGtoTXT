@@ -1,0 +1,64 @@
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.csproj.GenerateResource.Cache
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.exe
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.pdb
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.exe
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.pdb
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.csprojResolveAssemblyReference.cache
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Sobre.resources
+C:\Users\Lucas'\documents\visual studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Ajuda.resources
+C:\Users\Lucas'\Documents\Visual Studio 2010\Projects\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.exe.manifest
+C:\Users\Lucas'\Documents\Visual Studio 2010\Projects\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.application
+C:\Users\Lucas'\Documents\Visual Studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.TrustInfo.xml
+C:\Users\Lucas'\Documents\Visual Studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.exe.manifest
+C:\Users\Lucas'\Documents\Visual Studio 2010\Projects\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.application
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.exe.manifest
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.application
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.exe
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.pdb
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.csprojResolveAssemblyReference.cache
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Ajuda.resources
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Sobre.resources
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.csproj.GenerateResource.Cache
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.TrustInfo.xml
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.exe.manifest
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.application
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.exe
+D:\SITES E PROJETOS\C#\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.pdb
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.exe.manifest
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.application
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.exe
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.pdb
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.csprojResolveAssemblyReference.cache
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Ajuda.resources
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Sobre.resources
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.csproj.GenerateResource.Cache
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.TrustInfo.xml
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.exe.manifest
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.application
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.exe
+F:\Nova pasta (2)\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.pdb
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.exe
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.pdb
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.exe.manifest
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.application
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.exe
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\bin\Debug\BaixaTxt.pdb
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.csprojResolveAssemblyReference.cache
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Ajuda.resources
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Sobre.resources
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.csproj.GenerateResource.Cache
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.TrustInfo.xml
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.exe.manifest
+D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.application
