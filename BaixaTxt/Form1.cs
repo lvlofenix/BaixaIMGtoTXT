@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Net;
 using System.Threading;
+using WindowsFormsApplication1;
 
-namespace WindowsFormsApplication1
+namespace BaixaTXT
 {
     public partial class Form1 : Form
     {    
@@ -23,9 +18,8 @@ namespace WindowsFormsApplication1
         int qualthread = 0;
         string[] imgbroken;
         Boolean controleStop = false;
-        Sobre sobre = new Sobre();
         Form2 erro;
-        Ajuda ajuda = new Ajuda();
+
         
         //iniciando o form (construtor)
         public Form1()
@@ -51,9 +45,9 @@ namespace WindowsFormsApplication1
                     tt.Start();
                 }
             }
-            catch
+            catch(Exception err)
             {
-                MessageBox.Show("deu bosta");
+                MessageBox.Show(err.Message + Environment.NewLine + "carregaThreads");
             }
         }       
 
@@ -115,7 +109,7 @@ namespace WindowsFormsApplication1
             }
             catch(Exception ea)
             {
-                MessageBox.Show(ea + "");
+                MessageBox.Show(ea.Message + Environment.NewLine + "alimentaLista");
             }
         }
         
@@ -143,9 +137,11 @@ namespace WindowsFormsApplication1
                         {
                             if (controleStop == false)
                             {
-                                pictureBox1.ImageLocation = listBox1.Items[i] + "";
+                                if(checkBox1.Checked)
+                                    pictureBox1.ImageLocation = listBox1.Items[i] + "";
+                                else 
+                                    pictureBox1.ImageLocation = "/loading.gif";
                                 string fileURL = @"" + listBox1.Items[i];
-                                pictureBox1.ImageLocation = listBox1.Items[i]+"";
                                 DirectoryInfo di = new DirectoryInfo(folderBrowserDialog2.SelectedPath + "/");
                                 WebClient client = new WebClient();
                                 tipoImg = listBox1.Items[i] + "";
@@ -162,7 +158,7 @@ namespace WindowsFormsApplication1
                         }
                         catch(Exception e)
                         {
-                            MessageBox.Show(e + "");
+                            MessageBox.Show(e.Message + Environment.NewLine + "baixaImagens");
                             progressBar1.Invoke((MethodInvoker)delegate { progressBar1.PerformStep(); });
                             imgfail++;
                             imgbroken[imgfail] = listBox1.Items[pegai]+"";
@@ -180,19 +176,27 @@ namespace WindowsFormsApplication1
          */
         public void verificaVisu()
         {
-            if (!checkBox1.Checked)
+            try
             {
-                pictureBox1.ImageLocation = null;
-                Refresh();
+                if (!checkBox1.Checked)
+                {
+                    pictureBox1.ImageLocation = null;
+                    Refresh();
+                }
+                else
+                {
+                    Refresh();
+                    pictureBox1.ImageLocation = "/loading.gif";
+                    Refresh();
+                    pictureBox1.ImageLocation = listBox1.SelectedItem.ToString();
+                    Refresh();
+                }
             }
-            else
+            catch
             {
-                Refresh();
-                pictureBox1.ImageLocation = "/loading.gif";
-                Refresh();
-                pictureBox1.ImageLocation = listBox1.SelectedItem + "";
-                Refresh();
+
             }
+
         }
 
         /* cancelaDown
@@ -204,11 +208,12 @@ namespace WindowsFormsApplication1
             {
                 controleStop = true;
                 bt_cancel.Hide();
-                br_carregar.Invoke((MethodInvoker)delegate { br_carregar.Enabled = true; }); 
+                br_carregar.Invoke((MethodInvoker)delegate { br_carregar.Enabled = true; });
+                progressBar1.Invoke((MethodInvoker)delegate { progressBar1.Value = 0; });
             }
             catch(Exception e)
             {
-                MessageBox.Show("Algo deu errado!!\n"+e);
+                MessageBox.Show(e.Message,"Deu Ruim!",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
 
@@ -239,9 +244,11 @@ namespace WindowsFormsApplication1
         }
         //carrega a função de ativar/desativar a pre visualização.
         private void checkBox1_CheckedChanged(object sender, EventArgs e){verificaVisu();}
-        //abre o sobre
-        private void label7_Click(object sender, EventArgs e) { sobre.Show(); ajuda.Hide(); }
-        //abre o ajuda
-        private void label5_Click(object sender, EventArgs e) { sobre.Hide(); ajuda.Show(); }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            cancelaDown();
+
+        }
     }
 }

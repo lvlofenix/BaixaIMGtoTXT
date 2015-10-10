@@ -62,3 +62,17 @@ D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.cspr
 D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.TrustInfo.xml
 D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.exe.manifest
 D:\SITES E PROJETOS\C#\02 PROJETOS\BaixaTxt\BaixaTxt\obj\x86\Debug\BaixaTxt.application
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\obj\x86\Debug\BaixaTxt.exe
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\obj\x86\Debug\BaixaTxt.pdb
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\obj\x86\Debug\BaixaTxt.csprojResolveAssemblyReference.cache
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\obj\x86\Debug\BaixaTxt.csproj.GenerateResource.Cache
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\bin\Debug\BaixaTxt.exe.manifest
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\bin\Debug\BaixaTxt.application
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\bin\Debug\BaixaTxt.exe
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\bin\Debug\BaixaTxt.pdb
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\obj\x86\Debug\BaixaTxt.TrustInfo.xml
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\obj\x86\Debug\BaixaTxt.exe.manifest
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\obj\x86\Debug\BaixaTxt.application
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\obj\x86\Debug\BaixaTXT.Properties.Resources.resources
+D:\SITES E PROJETOS\GIT\ImageToTXT\BaixaIMGtoTXT\BaixaTxt\obj\x86\Debug\BaixaTXT.Form1.resources

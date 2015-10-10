@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BaixaTxt.exe" size="257024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BaixaTxt.exe" size="250768">
       <assemblyIdentity name="BaixaTxt" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>vCKMrqhdQBVJt9TFy4eISiQHQ5g=</dsig:DigestValue>
+        <dsig:DigestValue>z98NCZSgFySPrPDQF9htg2NeveM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace BaixaTXT
 {
     partial class Form1
     {
@@ -41,8 +41,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -52,11 +50,11 @@
             this.br_carregar.BackColor = System.Drawing.Color.White;
             this.br_carregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.br_carregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.br_carregar.Location = new System.Drawing.Point(12, 534);
+            this.br_carregar.Location = new System.Drawing.Point(34, 558);
             this.br_carregar.Name = "br_carregar";
             this.br_carregar.Size = new System.Drawing.Size(113, 38);
             this.br_carregar.TabIndex = 0;
-            this.br_carregar.Text = "Carregar Arquivo";
+            this.br_carregar.Text = "Carregar Arquivo TXT";
             this.br_carregar.UseVisualStyleBackColor = false;
             this.br_carregar.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -72,9 +70,9 @@
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(12, 18);
+            this.listBox1.Location = new System.Drawing.Point(12, 6);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(494, 436);
+            this.listBox1.Size = new System.Drawing.Size(530, 448);
             this.listBox1.TabIndex = 1;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged_1);
             // 
@@ -84,11 +82,11 @@
             this.bt_baixar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.bt_baixar.Enabled = false;
             this.bt_baixar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_baixar.Location = new System.Drawing.Point(393, 534);
+            this.bt_baixar.Location = new System.Drawing.Point(408, 550);
             this.bt_baixar.Name = "bt_baixar";
             this.bt_baixar.Size = new System.Drawing.Size(113, 38);
             this.bt_baixar.TabIndex = 2;
-            this.bt_baixar.Text = "Baixar Arquivos";
+            this.bt_baixar.Text = "Baixar Imagens";
             this.bt_baixar.UseVisualStyleBackColor = false;
             this.bt_baixar.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -99,19 +97,18 @@
             this.progressBar1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.progressBar1.Location = new System.Drawing.Point(13, 461);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(493, 20);
+            this.progressBar1.Size = new System.Drawing.Size(529, 20);
             this.progressBar1.Step = 5;
-            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(10, 500);
+            this.label1.Location = new System.Drawing.Point(12, 519);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 9);
+            this.label1.Size = new System.Drawing.Size(124, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Imagens Baixadas: 0";
             // 
@@ -120,7 +117,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(9, 509);
+            this.label2.Location = new System.Drawing.Point(12, 532);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 15);
             this.label2.TabIndex = 5;
@@ -131,7 +128,7 @@
             this.bt_cancel.BackColor = System.Drawing.Color.Red;
             this.bt_cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.bt_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cancel.Location = new System.Drawing.Point(423, 490);
+            this.bt_cancel.Location = new System.Drawing.Point(435, 505);
             this.bt_cancel.Name = "bt_cancel";
             this.bt_cancel.Size = new System.Drawing.Size(59, 38);
             this.bt_cancel.TabIndex = 6;
@@ -144,11 +141,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label3.Location = new System.Drawing.Point(11, 486);
+            this.label3.Location = new System.Drawing.Point(12, 505);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 9);
+            this.label3.Size = new System.Drawing.Size(127, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "Itens que falharam: 0";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -158,7 +155,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(150, 491);
+            this.label4.Location = new System.Drawing.Point(289, 591);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 13);
             this.label4.TabIndex = 9;
@@ -169,46 +166,22 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(221, 491);
+            this.checkBox1.Location = new System.Drawing.Point(355, 591);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 11;
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(10, 2);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "AJUDA";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(63, 2);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(49, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "SOBRE";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.Info;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Cross;
-            this.pictureBox1.InitialImage = global::WindowsFormsApplication1.Properties.Resources.loading;
+            this.pictureBox1.InitialImage = global::BaixaTXT.Properties.Resources.loading;
             this.pictureBox1.Location = new System.Drawing.Point(255, 486);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(121, 88);
+            this.pictureBox1.Size = new System.Drawing.Size(132, 102);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -218,9 +191,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(518, 576);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label5);
+            this.ClientSize = new System.Drawing.Size(554, 608);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
@@ -238,6 +209,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Download TXT";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -261,8 +233,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label7;
     }
 }
 
